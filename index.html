@@ -1,0 +1,178 @@
+<body>
+
+<h1>Malla curricular Contabilidad</h1>
+
+<div class="container">
+    <!-- Ciclo I -->
+    <div class="ciclo" id="ciclo1">
+        <h2>Ciclo I</h2>
+        <div class="curso linea-matematica" onclick="seleccionarLinea('linea-matematica')">Matemática Básica</div>
+        <div class="curso linea-gestion" onclick="seleccionarLinea('linea-gestion')">Fundamentos de Administración</div>
+        <div class="curso linea-economia" onclick="seleccionarLinea('linea-economia')">Economía General</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Contabilidad I</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Introducción a la Vida Universitaria</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Comunicación I</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Literatura y Teatro</div>
+    </div>
+    <!-- Ciclo II -->
+    <div class="ciclo" id="ciclo2">
+        <h2>Ciclo II</h2>
+        <div class="curso linea-matematica" onclick="seleccionarLinea('linea-matematica')">Álgebra y Geometría</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Matemática Básica</div>
+        <div class="curso linea-gestion" onclick="seleccionarLinea('linea-gestion')">Derecho Empresarial</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Fundamentos de Administración</div>
+        <div class="curso linea-emprendimiento" onclick="seleccionarLinea('linea-emprendimiento')">Pensamiento Crítico e Innovación</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Contabilidad II</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad I</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Música y Artes Visuales</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Lógica</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Comunicación II</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Comunicación I</div>
+    </div>
+    <!-- Ciclo III -->
+    <div class="ciclo" id="ciclo3">
+        <h2>Ciclo III</h2>
+        <div class="curso linea-matematica" onclick="seleccionarLinea('linea-matematica')">Cálculo en Una Variable</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Álgebra y Geometría</div>
+        <div class="curso linea-computacional" onclick="seleccionarLinea('linea-computacional')">Pensamiento Computacional</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Álgebra y Geometría</div>
+        <div class="curso linea-tributacion" onclick="seleccionarLinea('linea-tributacion')">Legislación Laboral</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Derecho Empresarial</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Contabilidad III</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad II</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Liderazgo</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Filosofía de la Naturaleza</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Historia de Occidente I</div>
+    </div>
+    <!-- Ciclo IV -->
+    <div class="ciclo" id="ciclo4">
+        <h2>Ciclo IV</h2>
+        <div class="curso linea-matematica" onclick="seleccionarLinea('linea-matematica')">Cálculo en Varias Variables</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Cálculo en Una Variable</div>
+        <div class="curso linea-matematica" onclick="seleccionarLinea('linea-matematica')">Estadística y Probabilidades</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Álgebra y Geometría</div>
+        <div class="curso linea-finanzas" onclick="seleccionarLinea('linea-finanzas')">Matemáticas Financieras</div>
+        <div class="mensaje-linea oculto">Mención: Finanzas | Pre-requisito: Matemática Básica</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Contabilidad de Costos I</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad III</div>
+        <div class="curso linea-tributacion" onclick="seleccionarLinea('linea-tributacion')">Legislación y Auditoría Tributaria</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Derecho Empresarial</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Antropología</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Historia de Occidente II</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Historia de Occidente I</div>
+    </div>
+    <!-- Ciclo V -->
+    <div class="ciclo" id="ciclo5">
+        <h2>Ciclo V</h2>
+        <div class="curso linea-economia" onclick="seleccionarLinea('linea-economia')">Microeconomía</div>
+        <div class="mensaje-linea oculto">Pre-requisito: (1) Cálculo en Varias Variables, (2) Economía General</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Normatividad Contable I</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad III</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Contabilidad de Sociedades</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad III</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Contabilidad de Costos II</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad de Costos I</div>
+        <div class="curso linea-tributacion" onclick="seleccionarLinea('linea-tributacion')">Contabilidad Tributaria I</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Legislación y Auditoría Tributaria</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Moral</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Análisis de la Realidad Peruana</div>
+    </div>
+    <!-- Ciclo VI -->
+    <div class="ciclo" id="ciclo6">
+        <h2>Ciclo VI</h2>
+        <div class="curso linea-matematica" onclick="seleccionarLinea('linea-matematica')">Estadística para los Negocios</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Estadística y Probabilidades</div>
+        <div class="curso linea-economia" onclick="seleccionarLinea('linea-economia')">Macroeconomía</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Microeconomía</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Normatividad Contable II</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Normatividad Contable I</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Contabilidad Corporativa</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad de Sociedades</div>
+        <div class="curso linea-tributacion" onclick="seleccionarLinea('linea-tributacion')">Contabilidad Tributaria II</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad Tributaria I</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Metafísica</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Fe y Razón</div>
+    </div>
+    <!-- Ciclo VII -->
+    <div class="ciclo" id="ciclo7">
+        <h2>Ciclo VII</h2>
+        <div class="curso linea-investigacion" onclick="seleccionarLinea('linea-investigacion')">Taller de Investigación I</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Comunicación II, Estadística para los Negocios</div>
+        <div class="curso linea-computacional" onclick="seleccionarLinea('linea-computacional')">Data Science</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Estadística para los Negocios, Pensamiento Computacional</div>
+        <div class="curso linea-finanzas" onclick="seleccionarLinea('linea-finanzas')">Finanzas Corporativas I</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Macroeconomía</div>
+        <div class="curso linea-marketing" onclick="seleccionarLinea('linea-marketing')">Fundamentos de Marketing</div>
+        <div class="curso linea-auditoria" onclick="seleccionarLinea('linea-auditoria')">Fundamentos de Auditoría</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Antropología y Epistemología de las Ciencias Empresariales</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Antropología, Macroeconomía</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Teología</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Fe y Razón</div>
+    </div>
+    <!-- Ciclo VIII -->
+    <div class="ciclo" id="ciclo8">
+        <h2>Ciclo VIII</h2>
+        <div class="curso linea-finanzas" onclick="seleccionarLinea('linea-finanzas')">Operaciones Financieras</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Finanzas Corporativas I</div>
+        <div class="curso linea-finanzas" onclick="seleccionarLinea('linea-finanzas')">Planeamiento y Control Presupuestal</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Macroeconomía</div>
+        <div class="curso linea-finanzas" onclick="seleccionarLinea('linea-finanzas')">Formulación y Evaluación de Proyectos</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Macroeconomía</div>
+        <div class="curso linea-gestion_publica" onclick="seleccionarLinea('linea-gestion_publica')">Presupuesto y Finanzas Públicas</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Macroeconomía</div>
+        <div class="curso linea-auditoria" onclick="seleccionarLinea('linea-auditoria')">Auditoría de Gestión Empresarial</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad de Sociedades</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Enseñanza Social de la Iglesia</div>
+        <div class="curso linea-human" onclick="seleccionarLinea('linea-human')">Ética Profesional</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Moral</div>
+    </div>
+    <!-- Ciclo IX -->
+    <div class="ciclo" id="ciclo9">
+        <h2>Ciclo IX</h2>
+        <div class="curso linea-investigacion" onclick="seleccionarLinea('linea-investigacion')">Taller de Investigación II</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Taller de Investigación I</div>
+        <div class="curso linea-gestion_publica" onclick="seleccionarLinea('linea-gestion_publica')">Contabilidad Gubernamental</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Presupuesto y Finanzas Públicas</div>
+        <div class="curso linea-finanzas" onclick="seleccionarLinea('linea-finanzas')">Finanzas Corporativas II</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Finanzas Corporativas I</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Gabinete Contable</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad Corporativa</div>
+        <div class="curso linea-tributacion" onclick="seleccionarLinea('linea-tributacion')">Tributación Sectorial</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad Tributaria II</div>
+        <div class="curso linea-auditoria" onclick="seleccionarLinea('linea-auditoria')">Auditoría Financiera</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Fundamentos de Auditoría</div>
+        <div class="curso linea-gestion_humana" onclick="seleccionarLinea('linea-gestion_humana')">Desarrollo de Habilidades para el Trabajo en Equipo (Electivo)</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad Corporativa</div>
+        <div class="curso linea-gestion_humana" onclick="seleccionarLinea('linea-gestion_humana')">Gestión de Equipos (Electivo)</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Contabilidad Corporativa</div>
+        <div class="curso linea-emprendimiento" onclick="seleccionarLinea('linea-emprendimiento')">Transformación Digital</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Data Science</div>
+    </div>
+    <!-- Ciclo X -->
+    <div class="ciclo" id="ciclo10">
+        <h2>Ciclo X</h2>
+        <div class="curso linea-investigacion" onclick="seleccionarLinea('linea-investigacion')">Taller de Investigación III</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Taller de Investigación II</div>
+        <div class="curso linea-gestion" onclick="seleccionarLinea('linea-gestion')">Gerencia Estratégica</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Ética Profesional</div>
+        <div class="curso linea-contabilidad" onclick="seleccionarLinea('linea-contabilidad')">Contabilidad de Gestión</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Gabinete Contable</div>
+        <div class="curso linea-tributacion" onclick="seleccionarLinea('linea-tributacion')">Tributación Internacional y Precios de Transferencia</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Tributación Sectorial</div>
+        <div class="curso linea-auditoria" onclick="seleccionarLinea('linea-auditoria')">Auditoría Forense</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Auditoría Financiera</div>
+        <div class="curso linea-finanzas" onclick="seleccionarLinea('linea-finanzas')">Mercados Financieros</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Finanzas Corporativas II</div>
+        <div class="curso linea-finanzas" onclick="seleccionarLinea('linea-finanzas')">Análisis de Riesgos (Electivo)</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Finanzas Corporativas II</div>
+        <div class="curso linea-finanzas" onclick="seleccionarLinea('linea-finanzas')">Microfinanzas (Electivo)</div>
+        <div class="mensaje-linea oculto">Pre-requisito: Finanzas Corporativas II</div>
+     </div>
+     
+</div>
+
+<div id="mensaje"></div>
+
+<script src="script.js"></script>
+
+</body>
